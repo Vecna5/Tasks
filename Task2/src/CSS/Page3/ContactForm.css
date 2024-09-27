@@ -1,0 +1,49 @@
+.contact-form {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #021e1f;
+    border: none;
+    border-bottom: 4px solid #fff;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+
+.contact-form ::placeholder {
+    color: #fff;
+}
+
+.contact-form button {
+    margin-left: 63px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+    width: 38%;
+    padding: 13px;
+    background-color: #021e1f;
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+    color: #0A1128;
+}

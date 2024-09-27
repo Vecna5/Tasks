@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #021e1f;
+    color: white;
+    padding: 40px;
+    position: relative;
+    width: 500x;
+    height: 650px;
+}
+
+.logo {
+    position: absolute; 
+    top: 20px; 
+    left: -105px; 
+    z-index: 100; 
+}
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 30px;
+}
+
+.sidebar {
+    position: absolute;
+    left: -125px; 
+    top: 280px; 
+    height: 49vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    pointer-events: none;
+}
+
+.sidebar p {
+    font-family: Andale Mono, monospace;
+    font-size: 22px;
+    color: #14191b;
+    transform: rotate(-90deg); 
+    text-decoration: none;
+    margin: 10px; 
+    transition: color 0.3s; 
+    letter-spacing: 2px; 
+}
+
+.sidebar p:hover {
+    color: white;
+}

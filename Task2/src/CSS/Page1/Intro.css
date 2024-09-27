@@ -1,0 +1,39 @@
+.intro {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    max-width: 550px;
+}
+
+.intro h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.intro p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 34px 0;
+    letter-spacing: 1px;
+}
+
+.download-btn {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 17px 40px;
+    background-color: #021e1f;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    letter-spacing: 2px;
+}
+
+.download-btn:hover {
+    background-color: #e2e7e6;
+}

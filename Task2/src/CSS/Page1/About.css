@@ -1,0 +1,58 @@
+.about {
+    width: 930px;
+    height: 900px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 51px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.about hr {
+    border: none; 
+    height: 3px; 
+    background-color: #021e1f; 
+    width: 80%; 
+    margin: 66px auto; 
+    margin-left: 30px;
+}
+
+.about p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #14191b;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.next-btn {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 13px 251px;
+    background-color: #021e1f;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    object-fit: cover;
+    border: 1px solid #000000;
+    letter-spacing: 20px;
+    margin-left: 83px;
+}
+
+.next-btn:hover {
+    background-color: #e2e7e6;
+}

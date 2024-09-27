@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e2e7e6;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px;
+    overflow: auto;  
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    width: 0;
+    background-color: #f9f9fd;
+}

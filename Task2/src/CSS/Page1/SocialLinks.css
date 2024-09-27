@@ -1,0 +1,26 @@
+.social-links {
+    position: absolute;
+    left: -100px;
+    top: 700px; 
+    height: 49vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.social-links a {
+    font-family: Andale Mono, monospace;
+    font-size: 22px;
+    transform: rotate(-90deg);
+    color: #14191b;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+}
+
+.social-links a:hover {
+    color: white;
+}
