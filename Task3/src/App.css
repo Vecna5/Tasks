@@ -1,0 +1,85 @@
+.App {
+  background-image: url('./Moon.svg');
+  text-align: center;
+  font-family: Bookman, URW Bookman L, serif;
+  color: rgb(24, 75, 141);
+  height: 100vh; 
+  margin: 0; 
+}
+.background {
+  height: calc(100vh - 100px);
+    overflow: hidden;
+    overflow-y: auto
+}
+.header {
+  background-image: url('./header.svg');
+  background-color: #333 solid;
+  color: white;
+  padding: 10px;
+}
+
+.palettes {
+  
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.palette {
+  background-color: #ddd;
+  border: 2px solid #000000;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.palette:hover {
+  transform: scale(1.05);
+}
+
+.color-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.color-box {
+  width: 160px;
+  height: 125px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+.palette-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-button {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 0px;
+    background-color: rgba(47, 53, 66, 0.7);
+    padding: 6px 19px;
+    border-radius: 5px;
+    -webkit-border-radius: -3px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    height: 41px;
+}
