@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e2e7e6;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px;
+    overflow: auto;  
+    -ms-overflow-style: none; 
+     scrollbar-width: none; 
+}
+
+.container::-webkit-scrollbar {
+     width: 0;
+      background-color: #f9f9fd;
+}
+.experience {
+    width: 930px;
+    height: 1156px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    overflow: auto;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-size: 55px;
+    margin-bottom: 29px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.experience-item {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.position h3 {
+    color: #0f5c5f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #14191b;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.vertical-line {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 3px; 
+    height: 95px; 
+    background-color: #0f5c5f; 
+}
+.accordion {
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    border-top: 3px solid #0f5c5f;
+}
+
+.accordion-item {
+    margin-top: 30px;
+    border-bottom: 3px solid #0f5c5f; 
+    margin-bottom: 30px; 
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+    padding: 10px;
+    background-color: #ffffff; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.accordion-title h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-size: 28px;
+}
+
+.accordion-content {
+    display: none;
+    font-size: 23px;
+    color: #14191b;
+    margin-top: 10px;
+}
+
+.accordion-title:hover {
+    background-color: #021e1f; 
+    color: white; 
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-title span {
+    font-size: 33px;
+    font-weight: bold;
+    color: #0f5c5f;
+}
+
+.next-btn {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 13px 251px;
+    background-color: #021e1f;;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    object-fit: cover;
+    border: 1px solid #000000;
+    letter-spacing: 20px;
+    margin-left: 83px;
+}
+
+.next-btn:hover {
+    background-color: #e2e7e6;
+} 
+
+
+

@@ -1,0 +1,143 @@
+* {
+    width: 87%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e2e7e6;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin:auto;
+    padding: 35px;
+}
+.contact-section {
+    color: white;
+    width: 930px;
+    background-color: #021e1f;
+    padding: 40px;
+    text-align: center;
+    height: 1190px;
+}
+.line {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 3px; 
+    height: 95px; 
+    background-color: white; 
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 51px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.contact-info p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.6;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 23px;
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #021e1f;
+    border: none;
+    border-bottom: 4px solid #fff;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+.contact-form ::placeholder{
+    color: #fff;
+}
+.contact-form button {
+    margin-left: 63px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+    width: 38%;
+    padding: 13px;
+    background-color: #021e1f;
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+    color: #0A1128;
+}
+
+.footer {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 21px;
+    text-align: left;
+}
+.social-icons {
+    margin-top: -32px;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.social-icons img {
+    width: 40px;
+    margin: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    margin-right: 10px; 
+}
+.social-icons a:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+
+.footer p {
+    font-family: "Playfair Display", serif;
+    margin-top: 9px;
+    font-size: 18px;
+    color:#021e1f;
+}
+
+.links {
+    margin-top: 176px;
+    margin-left: -40px;
+    width: 930px;
+    height: 161px;
+    background-color: white;
+    padding: 40px;
+    text-align: left;
+}
