@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Rituals",
+    "slug": "rituals"
+  },
+  {
+    "id": 2,
+    "name": "Divine Messages",
+    "slug": "divine-messages"
+  },
+  {
+    "id": 3,
+    "name": "Ceremonial Gatherings",
+    "slug": "ceremonial-gatherings"
+  },
+  {
+    "id": 4,
+    "name": "Spiritual Leadership",
+    "slug": "spiritual-leadership"
+  },
+  {
+    "id": 5,
+    "name": "Community Outreach",
+    "slug": "community-outreach"
+  }
+]
